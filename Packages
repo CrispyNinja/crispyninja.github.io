@@ -5,10 +5,10 @@ Maintainer: AkASlow
 Installed-Size: 192
 Depends: mobilesubstrate
 Filename: Files/teltx.deb
-Size: 36818
-MD5sum: 9c55e3a3d360f6554cd0f92ab79225ee
-SHA1: a3b594b932f7e55b8aa7d7b75b3287149c3121d1
-SHA256: 143a377920fb39d9bd9b90db6bb1942f9f79f981c3ea469c6e8457c6d267582b
+Size: 36776
+MD5sum: 308067a49e1ec03ca183610046c58dce
+SHA1: bcc77b3a7761ccd51cb61689c44c6b24f49c8290
+SHA256: c48147fbdea40eac7644d2a4316f0c3d394ba20fe9e031976684c86a598e8900
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: AkASlow
