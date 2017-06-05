@@ -93,6 +93,8 @@ if min_os == "":
 
 path_depics = input("Please enter the path to your depictions folder: ")
 
+changelog = input("Please enter a change log for this version ({}): ".format(version_i))
+
 use_screen = input("Do you have screenshots of this tweak you want to use? (Y/n): ")
 image_title = ""
 image_path = ""
@@ -125,6 +127,6 @@ print("Done!")
 print("\nPreparing to create depiction for tweak: {}".format(package_i))
 
 
-cxml.createInfoXML(path_depics, package_i, name_i, version_i, min_os, depends_i, desc_i, getUseBool(use_screen), image_title, image_path, "Initial release", getUseBool(use_link), "/r/jailbreak_", "https://www.reddit.com/r/jailbreak_", "fa fa-reddit")
+cxml.createInfoXML(path_depics, package_i, name_i, version_i, min_os, depends_i, desc_i, getUseBool(use_screen), image_title, image_path, changelog, getUseBool(use_link), link_title, link_url, link_class)
 
-cxml.createChangelogXML(path_depics, package_i, "0.0.1", "Initial release")
+cxml.createChangelogXML(path_depics, package_i, version_i, changelog)
