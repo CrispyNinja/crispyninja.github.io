@@ -16,4 +16,4 @@ do
   echo "Found deb: $d"
 done
 
-dpkg-scanpackages debs/ /dev/null > Packages && bzip2 < Packages > Packages.bz2 && gzip < Packages > Packages.gz
+dpkg-scanpackages debs/ /dev/null > Packages && bzip2 < Packages > Packages.bz2 #&& gzip < Packages > Packages.gz
