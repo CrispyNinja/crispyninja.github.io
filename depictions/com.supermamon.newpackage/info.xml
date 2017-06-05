@@ -11,10 +11,10 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
+		<description>This is an package will fullss depictions.</description>
 		<description>It has more description lines.</description>
 		<description><![CDATA[
-		You can also have<br/> 
+		You can also have<br/>
 		a multi-line item.
 		]]>
 		</description>
@@ -23,11 +23,11 @@
 		<screenshot>
 			<description>This is a description for screenshot 1. It's Cydia!</description>
 			<image>cydia.jpg</image>
-		</screenshot>		
+		</screenshot>
 		<screenshot>
 			<description>This is a description for screenshot 2. It's another Cydia!</description>
 			<image>cydia.jpg</image>
-		</screenshot>		
+		</screenshot>
 	</screenshots>
 	<changelog>
 		<change>Second release</change>
