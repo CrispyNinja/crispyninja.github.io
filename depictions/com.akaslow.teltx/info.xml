@@ -1,11 +1,11 @@
 <package>
 	<id>com.akaslow.teltx</id>
-	<name>Old Package</name>
-	<version>1.0.0-1</version>
+	<name>Telt X</name>
+	<version>0.0.1-4+debug</version>
 	<compatibility>
 		<firmware>
-			<maxiOS>6.0</maxiOS>
-			<otherVersions>unsupported</otherVersions>
+			<minOS>10.0</minOS>
+			<otherVersions>unconfirmed</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
 			-->
