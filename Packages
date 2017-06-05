@@ -4,13 +4,13 @@ Architecture: iphoneos-arm
 Maintainer: AkASlow
 Installed-Size: 192
 Depends: mobilesubstrate
-Filename: debs//teltx.deb
-Size: 25240
-MD5sum: 988a11feed6498d5b0e9b34e9ce1a161
-SHA1: 66d061cecd7ca40311942cde420a32695b86742b
-SHA256: 8418e054b2370d94eb37f04d4e4c47f3746706698e428501a969c1036875e25d
+Filename: debs/teltx.deb
+Size: 25156
+MD5sum: aa5edc74549270f870a86cd9f73cedf6
+SHA1: 1da32b778039023c48cac1f5222dc80a7c6fffd9
+SHA256: 7a9e0ec5cc39be8e3b9aca5233472c6680e94a7f7bc97929d6e7c99d88c23212
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: AkASlow
-Depiction: http://crispyninja.github.io/depic/index.html?p=com.akaslow.teltx
 Name: TeltX
+
