@@ -1,5 +1,5 @@
 Package: com.akaslow.teltx
-Version: 0.0.1-4+debug
+Version: 1.0.0-1
 Architecture: iphoneos-arm
 Maintainer: AkASlow <eirik1@outlook.com>
 Depends: mobilesubstrate, firmware (<10.0)
