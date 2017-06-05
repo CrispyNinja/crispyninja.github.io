@@ -1,6 +1,6 @@
 <package>
-	<id>com.akaslow.teltx</id>
-	<name>Telt X</name>
+	<id>com.akaslow.watchlock</id>
+	<name>WatchLock</name>
 	<version>0.0.1-4</version>
 	<compatibility>
 		<firmware>
@@ -11,7 +11,7 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>A kiosk mode for Photos.app</description>
+		<description>Lock your phone from your Apple Watch!</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>

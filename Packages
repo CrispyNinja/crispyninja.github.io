@@ -1,13 +1,13 @@
-Package: com.akaslow.teltx
-Version: 0.0.1-4
+Package: com.akaslow.watchlock
+Version: 0.0.1
 Section: Tweaks
 Maintainer: AkASlow <eirik1@outlook.com>
 Depends: firmware (>10.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: debs/com.akaslow.teltx_0.0.1-4_iphoneos-arm.deb
-Size: 36776
-MD5sum: 308067a49e1ec03ca183610046c58dce
-Description: A kiosk mode for Photos.app
-Name: Telt X
+Filename: debs/com.akaslow.watchlock_iphoneos-arm.deb
+Size: 6650
+MD5sum: ff1542ce4cd5381a8f57aea3bc6b9396
+Description: Lock your phone from your Apple Watch!
+Name: WatchLock
 Author: AkASlow <eirik1@outlook.com>
-Depiction: https://crispyninja.github.io/depictions/?p=com.akaslow.teltx
+Depiction: https://crispyninja.github.io/depictions/?p=com.akaslow.watchlock
