@@ -7,28 +7,34 @@
 			<miniOS>10.0</miniOS>
 		</firmware>
 	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+	</dependencies>
 	<descriptionlist>
 		<description>A kios mode for Photos.app</description>
-		<description>Just like in windows</description>
+		<description>Just like in windows!</description>
+		<description><![CDATA[
+		You can also have<br/>
+		a multi-line item.
+		]]>
+		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>TeltX</description>
-			<image>teltx.jpg</image>
+			<description>TeltX!</description>
+			<image>cydia.jpg</image>
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Initial release</change>
+		<change>Second release</change>
+		<change>It has feature 1</change>
+		<change>It has feature 2</change>
 	</changelog>
 	<links>
 		<link>
-			<name>Reddit</name>
-			<url>https://www.reddit.com/u/pcgamers123</url>
-		</link>
-
-		<link>
-			<name>Twitter</name>
-			<url>https://twitter.com/slowaka</url>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
+			<iconclass>fa fa-reddit</iconclass>
 		</link>
 	</links>
 </package>

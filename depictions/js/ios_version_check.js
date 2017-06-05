@@ -4,18 +4,23 @@ let me know and I'll credit you.
 
 */
 
-const VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
-const VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
-const VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
-const VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
+// changed const to var for IE9/10 compatibity.
+var VERSION_CHECK_SUPPORTED = "Your iOS version is supported! &#x1f60a;";
+var VERSION_CHECK_NEEDS_UPGRADE = "Requires at least iOS %s &#x1f615;";
+var VERSION_CHECK_UNCONFIRMED = "Not yet tested on iOS %s &#x1f601;";
+var VERSION_CHECK_UNSUPPORTED = "Only compatible with iOS %s to %s &#x1f61e;";
 
 function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
-	"use strict";	
-	
-	
+	"use strict";
+
+
 	function parseVersionString(version) {
 		var bits = version.split(".");
-		return [ bits[0], bits[1] ? bits[1] : 0, bits[2] ? bits[2] : 0 ];
+		return [ 
+				parseInt(bits[0], 10), 
+				parseInt(bits[1] ? bits[1] : 0, 10), 
+				parseInt(bits[2] ? bits[2] : 0, 10)
+			   ];
 	}
 
 	function compareVersions(one, two) {
@@ -39,14 +44,18 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		}
 
 		return 0;
-	}	
-	
+	}
+
 	var version = navigator.appVersion.match(/CPU( iPhone)? OS (\d+)_(\d+)(_(\d+))? like/i);
 	if (!version) {
 		return 0;
 	}
 
-	var osVersion = [ version[2], version[3], version[4] ? version[5] : 0 ],
+	var osVersion = [ 
+						parseInt(version[2], 10), 
+						parseInt(version[3], 10), 
+						parseInt(version[4] ? version[5] : 0, 10)
+					],
 
 		osString = osVersion[0] + "." + osVersion[1] + (osVersion[2] && osVersion[2] != 0 ? "." + osVersion[2] : ""),
 		minString = minIOS,
@@ -57,7 +66,7 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 
 		message = VERSION_CHECK_SUPPORTED,
 		isBad = false;
-		
+
 	if (compareVersions(minVersion, osVersion) == 1) {
 		message = VERSION_CHECK_NEEDS_UPGRADE.replace("%s", minString);
 		isBad = true;
@@ -71,6 +80,6 @@ function ios_version_check(minIOS,maxIOS,otherIOS,callBack) {
 		isBad = true;
 	}
 	callBack(message,isBad);
-	
+
 	return (isBad?-1:1);
 }

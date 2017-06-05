@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://twitter.com/SlowAkA</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+		<link>
+			<name>See the GitHub page</name>
+			<url>https://github.com/supermamon/CrispyNinja/</url>
+			<iconclass>fa fa-thumbs-up</iconclass>
+		</link>
+	</footerlinks>
+</repo>

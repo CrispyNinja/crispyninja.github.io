@@ -1,5 +1,5 @@
 #!/bin/bash
-rm Packages && rm Packages.bz2 && rm Packages.gz
+rm Packages && rm Packages.bz2 #&& rm Packages.gz
 
 #for debs in debs/*.deb
 #do
