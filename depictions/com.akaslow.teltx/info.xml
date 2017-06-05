@@ -1,6 +1,6 @@
 <package>
-	<id>com.akaslow.testx</id>
-	<name>Test X</name>
+	<id>com.akaslow.mymessage</id>
+	<name>My Message</name>
 	<version>0.0.1-4</version>
 	<compatibility>
 		<firmware>
