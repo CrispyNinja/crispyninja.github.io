@@ -1,4 +1,4 @@
-Package: com.akaslow.teltx
+Package: com.akaslow.teltxxxx
 Version: 0.0.1-4
 Section: Tweaks
 Maintainer: AkASlow <eirik1@outlook.com>
@@ -10,3 +10,4 @@ MD5sum: 308067a49e1ec03ca183610046c58dce
 Description: A kiosk mode for Photos.app
 Name: Telt X
 Author: AkASlow <eirik1@outlook.com>
+Depiction: https://crispyninja.github.io/depictions/?p=com.akaslow.teltx
