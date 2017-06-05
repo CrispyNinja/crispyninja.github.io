@@ -5,7 +5,7 @@ Maintainer: AkASlow <eirik1@outlook.com>
 Depends: firmware (>10.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: debs/com.akaslow.teltx_0.0.1-4_iphoneos-arm.deb
-Size: 854
+Size: 36776
 MD5sum: 308067a49e1ec03ca183610046c58dce
 Description: A kiosk mode for Photos.app
 Name: Telt X

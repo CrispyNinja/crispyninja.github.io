@@ -11,13 +11,7 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
-		<description>It has more description lines.</description>
-		<description><![CDATA[
-		You can also have<br/>
-		a multi-line item.
-		]]>
-		</description>
+		<description>A kiosk mode for Photos.app</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
