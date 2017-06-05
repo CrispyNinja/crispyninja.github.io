@@ -1,0 +1,16 @@
+Package: com.akaslow.teltx
+Version: 0.0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: AkASlow
+Installed-Size: 192
+Depends: mobilesubstrate
+Filename: debs/com.akaslow.teltx_0.0.1-4+debug_iphoneos-arm.deb
+Size: 36776
+MD5sum: 308067a49e1ec03ca183610046c58dce
+SHA1: bcc77b3a7761ccd51cb61689c44c6b24f49c8290
+SHA256: c48147fbdea40eac7644d2a4316f0c3d394ba20fe9e031976684c86a598e8900
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: AkASlow
+Name: TeltX
+
