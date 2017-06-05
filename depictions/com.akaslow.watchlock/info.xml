@@ -1,21 +1,20 @@
 <package>
-   <id>com.akaslow.watchlock</id>
-   <name>WatchLock</name>
-   <version>0.0.1</version>
-   <compatibility>
-      <firmware>
-         <miniOS>10.0</miniOS>
-      </firmware>
-   </compatibility>
-   <dependencies>
-      <package>mobilesubstrate</package>
-   </dependencies>
-   <descriptionlist>
-      <description>Lock your phone from your Apple Watch!</description>
-   </descriptionlist>
-   <screenshots></screenshots>
-   <changelog>
-      <change>Initial release</change>
-   </changelog>
-   <links></links>
+	<id>com.akaslow.watchlock</id>
+	<name>WatchLock</name>
+	<version>0.0.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Lock your phone from your Apple Watch!</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
 </package>
