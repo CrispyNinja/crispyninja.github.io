@@ -10,7 +10,7 @@ MD5sum: 308067a49e1ec03ca183610046c58dce
 Section: Tweaks
 Description: An awesome MobileSubstrate tweak!
 Author: AkASlow <eirik1@live.no>
-Depiction: https://crispyninja.github.io/depictions/?p=com.supermamon.oldpackage
+Depiction: https://crispyninja.github.io/depictions/?p=com.akaslow.teltx
 Name: TeltX
 
 Package: com.supermamon.oldpackage
