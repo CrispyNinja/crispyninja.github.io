@@ -12,17 +12,3 @@ Description: An awesome MobileSubstrate tweak!
 Author: AkASlow <eirik1@live.no>
 Depiction: https://crispyninja.github.io/depictions/?p=com.akaslow.teltx
 Name: TeltX
-
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Architecture: iphoneos-arm
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Filename: debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Section: Tweaks
-Description: Firmware should be lower than 6.0
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://crispyninja.github.io/depictions/?p=com.supermamon.oldpackage
-Name: Old Package
