@@ -31,13 +31,11 @@
 	</screenshots>
 	<changelog>
 		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
 	</changelog>
 	<links>
 		<link>
-			<name>/r/jailbreak</name>
-			<url>https://www.reddit.com/r/jailbreak</url>
+			<name>/r/jailbreak_</name>
+			<url>https://www.reddit.com/r/jailbreak_</url>
 			<iconclass>fa fa-reddit</iconclass>
 		</link>
 	</links>
