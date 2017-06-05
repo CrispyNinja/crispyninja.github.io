@@ -1,35 +1,43 @@
 <package>
-	<id>com.akaslow.teltx</id>
-	<name>Telt X</name>
-	<version>0.0.1-4+debug</version>
+	<id>com.supermamon.fullpackage</id>
+	<name>Full Package</name>
+	<version>2.0.0-1</version>
 	<compatibility>
 		<firmware>
-			<miniOS>10.0</miniOS>
+			<miniOS>7.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>A kios mode for Photos.app</description>
+		<description>This is an package will full depictions.</description>
+		<description>It has more description lines.</description>
+		<description><![CDATA[
+		You can also have<br/> 
+		a multi-line item.
+		]]>
+		</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
 			<description>This is a description for screenshot 1. It's Cydia!</description>
 			<image>cydia.jpg</image>
-		</screenshot>
+		</screenshot>		
 		<screenshot>
 			<description>This is a description for screenshot 2. It's another Cydia!</description>
 			<image>cydia.jpg</image>
-		</screenshot>
+		</screenshot>		
 	</screenshots>
 	<changelog>
-		<change>First release?</change>
+		<change>Second release</change>
+		<change>It has feature 1</change>
+		<change>It has feature 2</change>
 	</changelog>
 	<links>
 		<link>
-			<name>/r/jailbreak_</name>
-			<url>https://www.reddit.com/r/jailbreak_</url>
+			<name>/r/jailbreak</name>
+			<url>https://www.reddit.com/r/jailbreak</url>
 			<iconclass>fa fa-reddit</iconclass>
 		</link>
 	</links>
