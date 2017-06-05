@@ -2,12 +2,12 @@ Package: com.supermamon.newpackage
 Version: 0.0.1-4
 Section: Tweaks
 Maintainer: AkASlow <eirik1@outlook.com>
-Depends: firmware (>7.0), mobilesubstrate
+Depends: firmware (>10.0), mobilesubstrate
 Architecture: iphoneos-arm
 Filename: debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
 Size: 854
 MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package.
+Description: A kiosk mode for Photos.app
 Name: Telt X
 Author: AkASlow <eirik1@outlook.com>
 Depiction: https://crispyninja.github.io/depictions/?p=com.supermamon.newpackage
