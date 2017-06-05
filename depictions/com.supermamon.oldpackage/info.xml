@@ -4,8 +4,8 @@
 	<version>1.0.0-1</version>
 	<compatibility>
 		<firmware>
-			<maxiOS>6.0</maxiOS>
-			<otherVersions>unsupported</otherVersions>
+			<minOS>10.0</minOS>
+			<otherVersions>unconfirmed</otherVersions>
 			<!--
 			for otherVersions, you can put either unsupported or unconfirmed
 			-->
@@ -13,7 +13,7 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>This is an old package. Requires iOS 6 and below..</description>
+		<description>This is an old package.</description>
 	</descriptionlist>
 	<screenshots></screenshots>
 	<changelog>
