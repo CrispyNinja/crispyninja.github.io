@@ -12,6 +12,12 @@ dir_path = os.path.dirname(os.path.abspath(__file__))
 
 print("\nTIP: just press enter if the 'def (default)' suits your needs!\n")
 
+def getUseBool(use):
+    if use == "y":
+        return True
+    elif use == "n":
+        return False
+
 def writeToPackages(p_file, package, version, section, maintainer, depends, arch, debloc, desc, name, depic):
     p_file.write("\nPackage: " + str(package))
     p_file.write("\nVersion: " + str(version))
@@ -63,7 +69,7 @@ depends_i = input("Please enter the dependencies (def: mobilesubstrate): ")
 if depends_i == "":
     depends_i = "mobilesubstrate"
 
-arch_i = input("\nPlease enter the Architecture (def: iphoneos-arm): ")
+arch_i = input("Please enter the Architecture (def: iphoneos-arm): ")
 if arch_i == "":
     arch_i = "iphoneos-arm"
 
@@ -81,12 +87,44 @@ name_i = input("Please enter the name: ")
 
 depiction_i = input("Please enter the depiction url: ")
 
+min_os = input("Please enter the minimum iOS required (def: 10.0): ")
+if min_os == "":
+    min_os = "10.0"
+
+path_depics = input("Please enter the path to your depictions folder: ")
+
+use_screen = input("Do you have screenshots of this tweak you want to use? (Y/n): ")
+image_title = ""
+image_path = ""
+if use_screen == "" or use_screen.lower() == "y":
+    use_screen = "y"
+    image_title = input("Please enter the title of your image: ")
+    image_path = input("Please enter the path of your image (ex: 'folder/to/screenshots/image.png'): ")
+else:
+    use_screen = "n"
+
+use_link = input("Do you want to have links for your info.xml? (Y/n): ")
+link_title = ""
+link_url = ""
+link_class = ""
+if use_link == "" or use_link.lower() == "y":
+    use_link = "y"
+
+    link_title = input("Please enter the title of your link (ex: '/r/jailbreak_'): ")
+    link_url = input("Please enter the URL of your title: ")
+    link_class = input("Please enter the icon class for your link (def: 'fa fa-reddit'): ")
+    if link_class == "":
+        link_class = "fa fa-reddit"
+else:
+    use_link = "n"
+
 print("\nWriting...")
 writeToPackages(packages_obj, package_i, version_i, section_i, maintainer_i, depends_i, arch_i, debloc_i, desc_i, name_i, depiction_i)
 print("Done!")
 
 print("\nPreparing to create depiction for tweak: {}".format(package_i))
 
-cxml.createInfoXML("depictions/com.akaslow.watchlock", package_i, name_i, version_i, "10.0", depends_i, desc_i, "Preview", "cydia.png", "Initial release", "/r/jailbreak_", "https://www.reddit.com/r/jailbreak_", "fa fa-reddit")
 
-cxml.createChangelogXML("depictions/com.akaslow.watchlock", "0.0.1", "Initial release")
+cxml.createInfoXML(path_depics, package_i, name_i, version_i, min_os, depends_i, desc_i, getUseBool(use_screen), image_title, image_path, "Initial release", getUseBool(use_link), "/r/jailbreak_", "https://www.reddit.com/r/jailbreak_", "fa fa-reddit")
+
+cxml.createChangelogXML(path_depics, package_i, "0.0.1", "Initial release")
