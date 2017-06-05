@@ -1,13 +1,32 @@
+Package: com.akaslow.teltx
+Version: 0.0.1-4+debug
+Architecture: iphoneos-arm
+Maintainer: AkASlow
+Installed-Size: 192
+Depends: mobilesubstrate
+Filename: debs/com.akaslow.teltx_0.0.1-4+debug_iphoneos-arm.deb
+Size: 36776
+MD5sum: 308067a49e1ec03ca183610046c58dce
+SHA1: bcc77b3a7761ccd51cb61689c44c6b24f49c8290
+SHA256: c48147fbdea40eac7644d2a4316f0c3d394ba20fe9e031976684c86a598e8900
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: AkASlow
+Name: TeltX
+
 Package: com.supermamon.oldpackage
 Version: 1.0.0-1
-Section: Tweaks
+Architecture: iphoneos-arm
 Maintainer: Reposi3 <reposithree@gmail.com>
 Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
+Filename: debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
 Size: 860
 MD5sum: 8c606f0c05217aa2a20949091fe516f0
+SHA1: 44f945218a8f72e24ad69191bfee4a89bb7e9bc0
+SHA256: 2d0cf4ea9ddc1d1be3968c869ddd29bd850eae37ccd9b35d100f72b7aca62f8e
+Section: Tweaks
 Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://crispyninja.github.io/depictions/?p=com.supermamon.oldpackage
+Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Name: Old Package
+
