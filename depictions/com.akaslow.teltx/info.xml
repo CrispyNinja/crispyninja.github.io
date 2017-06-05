@@ -1,6 +1,6 @@
 <package>
-	<id>com.akaslow.fullpackage</id>
-	<name>Full Package</name>
+	<id>com.akaslow.testx</id>
+	<name>Test X</name>
 	<version>0.0.1-4+debug</version>
 	<compatibility>
 		<firmware>
