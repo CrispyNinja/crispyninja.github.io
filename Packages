@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: AkASlow
 Installed-Size: 192
 Depends: mobilesubstrate
-Filename: debs/teltx.deb
+Filename: debs//teltx.deb
 Size: 25156
 MD5sum: aa5edc74549270f870a86cd9f73cedf6
 SHA1: 1da32b778039023c48cac1f5222dc80a7c6fffd9
