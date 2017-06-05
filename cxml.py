@@ -84,5 +84,5 @@ def createChangelogXML(path, version, change):
         f.write(xmlstr)
         f.close()
 
-    removeXMLVersion(tr(path) + "/changelog.xml")
+    removeXMLVersion(str(path) + "/changelog.xml")
     print("Done!")
