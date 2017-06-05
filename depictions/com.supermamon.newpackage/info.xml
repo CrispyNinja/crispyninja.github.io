@@ -1,5 +1,5 @@
 <package>
-	<id>com.supermamon.fullpackage</id>
+	<id>com.akaslow.teltxpackage</id>
 	<name>Telt X</name>
 	<version>0.0.1-4debug</version>
 	<compatibility>
@@ -11,7 +11,7 @@
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>This is an package will full depictions.</description>
+		<description>This is an package will full depictionss.</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
