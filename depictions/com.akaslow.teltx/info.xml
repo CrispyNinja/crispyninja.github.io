@@ -1,7 +1,7 @@
 <package>
 	<id>com.akaslow.testx</id>
 	<name>Test X</name>
-	<version>0.0.1-4+debug</version>
+	<version>0.0.1-4</version>
 	<compatibility>
 		<firmware>
 			<miniOS>10.0</miniOS>
