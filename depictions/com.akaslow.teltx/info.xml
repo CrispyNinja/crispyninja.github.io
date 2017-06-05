@@ -1,22 +1,17 @@
 <package>
-	<id>com.supermamon.fullpackage</id>
+	<id>com.akaslow.teltx</id>
 	<name>Full Package</name>
-	<version>2.0.0-1</version>
+	<version>1.0</version>
 	<compatibility>
 		<firmware>
-			<miniOS>7.0</miniOS>
+			<miniOS>10.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
 		<package>mobilesubstrate</package>
 	</dependencies>
 	<descriptionlist>
-		<description>This is an package will fullss depictions.</description>
-		<description>It has more description lines.</description>
-		<description><![CDATA[
-		You can also have<br/>
-		a multi-line item.
-		]]>
+		<description>A kios mode for Photos.app</description>
 		</description>
 	</descriptionlist>
 	<screenshots>
@@ -30,14 +25,12 @@
 		</screenshot>
 	</screenshots>
 	<changelog>
-		<change>Second release</change>
-		<change>It has feature 1</change>
-		<change>It has feature 2</change>
+		<change>First release?</change>
 	</changelog>
 	<links>
 		<link>
 			<name>/r/jailbreak</name>
-			<url>https://www.reddit.com/r/jailbreak</url>
+			<url>https://www.reddit.com/r/jailbreak_</url>
 			<iconclass>fa fa-reddit</iconclass>
 		</link>
 	</links>
