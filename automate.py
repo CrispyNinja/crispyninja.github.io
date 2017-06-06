@@ -8,6 +8,8 @@ from os import walk
 
 import cxml
 
+import subprocess
+
 dir_path = os.path.dirname(os.path.abspath(__file__))
 
 print("\nTIP: just press enter if the 'def (default)' suits your needs!\n")
@@ -18,21 +20,11 @@ def getUseBool(use):
     elif use == "n":
         return False
 
-def writeToPackages(p_file, package, version, section, maintainer, depends, arch, debloc, desc, name, depic):
-    p_file.write("\nPackage: " + str(package))
-    p_file.write("\nVersion: " + str(version))
-    p_file.write("\nSection: " + str(section))
-    p_file.write("\nMaintainer: " + str(maintainer))
-    p_file.write("\nDepends: " + str(depends))
-    p_file.write("\nArchitecture: " + str(arch))
-    p_file.write("\nFilename: " + str(debloc))
-    p_file.write("\nSize: " + str(os.path.getsize(str(debloc))))
-    p_file.write("\nMD5sum: " + hashlib.md5(open(str(debloc), 'rb').read()).hexdigest())
-    p_file.write("\nDescription: " + str(desc))
-    p_file.write("\nName: " + str(name))
-    p_file.write("\nAuthor: " + str(maintainer))
-    if str(depic) != "":
-        p_file.write("\nDepiction: " + str(depic))
+def writeToPackages(debs_path):
+    print("Generating Packages file...")
+    #subprocess.run(['dpkg-scanpackages', dir_path + '/debs', '>', 'lol'], cwd=dir_path)
+    debs = dir_path + debs_path
+    stat = subprocess.call("dpkg-scanpackages " + debs + " > Packages", cwd=dir_path, shell=True)
 
 name = ""
 pack_file = input("\nEnter packages file location (def: 'Packages'): ")
@@ -63,15 +55,9 @@ section_i = input("Please enter the section (def: Tweaks): ")
 if section_i == "":
     section_i = "Tweaks"
 
-maintainer_i = input("Please enter the maintainer (Name <mail>): ")
-
 depends_i = input("Please enter the dependencies (def: mobilesubstrate): ")
 if depends_i == "":
     depends_i = "mobilesubstrate"
-
-arch_i = input("Please enter the Architecture (def: iphoneos-arm): ")
-if arch_i == "":
-    arch_i = "iphoneos-arm"
 
 debloc_i = input("Please enter the .deb file location (ex: 'debs/my.file.deb'): ")
 if debloc_i == "":
@@ -92,6 +78,9 @@ if min_os == "":
     min_os = "10.0"
 
 path_depics = input("Please enter the path to your depictions folder: ")
+path_debs = input("Please enter the path to your debs folder (def: '/debs'): ")
+if debs_path == "":
+    debs_path = "/debs"
 
 changelog = input("Please enter a change log for this version ({}): ".format(version_i))
 
@@ -121,7 +110,7 @@ else:
     use_link = "n"
 
 print("\nWriting...")
-writeToPackages(packages_obj, package_i, version_i, section_i, maintainer_i, depends_i, arch_i, debloc_i, desc_i, name_i, depiction_i)
+writeToPackages(path_debs)
 print("Done!")
 
 print("\nPreparing to create depiction for tweak: {}".format(package_i))

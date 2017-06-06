@@ -1,13 +1,1 @@
-Package: com.akaslow.watchlock
-Version: 0.0.1
-Section: Tweaks
-Maintainer: AkASlow <eirik1@outlook.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: debs/com.akaslow.watchlock_iphoneos-arm.deb
-Size: 6650
-MD5sum: ff1542ce4cd5381a8f57aea3bc6b9396
-Description: Lock your phone from your Apple Watch!
-Name: WatchLock
-Author: AkASlow <eirik1@outlook.com>
-Depiction: https://crispyninja.github.io/depictions/?p=com.akaslow.watchlock
+
